@@ -8,7 +8,6 @@ async function fetchPosts(): Promise<Post[]> {
 }
 
 fetchPosts().then((posts) => {
-  // posts.forEach((post) => console.log(post.title));
   console.log(posts[0].title);
 });
 
